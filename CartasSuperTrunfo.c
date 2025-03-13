@@ -20,3 +20,57 @@ int main() {
 
     return 0;
 }
+
+#include <stdio.h>
+
+int main(){
+    char estado [50];
+    char cidade [50];
+    char código_da_carta [20];
+    int população;
+    int numero_de_pontos_turisticos;
+    float área_em_km;
+    float pib; 
+
+    printf("digite o estado: \n");
+    scanf("%s", &estado);
+
+    printf("digitea cidade: \n");
+    scanf("%s", &cidade);
+
+    printf("digite o Código_da_carta: \n");
+    scanf("%s", &código_da_carta);
+
+    printf("digite a populaçaõ: \n");
+    scanf("%d", &população);
+
+    printf("digite o numero_de_pontos_turisticos: \n");
+    scanf("%d", &numero_de_pontos_turisticos);
+
+    printf("digite a área_em_km: \n");
+    scanf("%s", &área_em_km);
+
+    printf("digite o pib: \n");
+    scanf("%s", &pib);
+
+    printf("digite o estado: \n");
+    scanf("%s", &estado);
+
+    printf("digitea cidade: \n");
+    scanf("%s", &cidade);
+
+    printf("digite o Código_da_carta: \n");
+    scanf("%s", &código_da_carta);
+
+    printf("digite a populaçaõ: \n");
+    scanf("%d", &população);
+
+    printf("digite o numero_de_pontos_turisticos: \n");
+    scanf("%d", &numero_de_pontos_turisticos);
+
+    printf("digite a área_em_km: \n");
+    scanf("%s", &área_em_km);
+
+    printf("digite o pib: \n");
+    scanf("%s", &pib);
+}
